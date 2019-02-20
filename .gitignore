@@ -1,0 +1,35 @@
+**/node_modules
+**/*.pyc
+**/virtualenv
+*.log
+
+# Elastic Beanstalk Files
+# .elasticbeanstalk/*
+.elasticbeanstalk/*.cfg.yml
+.elasticbeanstalk/*.global.yml
+
+**/.webassets-cache
+**/.DS_Store
+
+# Upload directory
+media/*
+
+# Collected Static Files
+static/**
+!*/fixtures/*.json
+
+# Mocks 
+# !**/field/assets/json/mocks/*.json
+nohup.out
+*.swp
+*.swo
+*.swn
+/sas/settings/local.py
+.venv
+
+# Testing coverage
+.coverage
+
+# Vim development specific
+tags
+Session.vim
